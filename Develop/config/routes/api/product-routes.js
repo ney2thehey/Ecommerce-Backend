@@ -38,6 +38,7 @@ router.get('/:id', async (req, res) => {
 
 // create new product
 router.post('/', (req, res) => {
+  console.log("successfullyupdated");
   /* req.body should look like this...
     {
       product_name: "Basketball",
